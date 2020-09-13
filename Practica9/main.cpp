@@ -10,7 +10,6 @@ struct comando
     int D2;
     int D3;
     int D4;
-    return 0;
 } fig[13];
 
 void guardarImagenVectorial(char * nombreArchivo)
