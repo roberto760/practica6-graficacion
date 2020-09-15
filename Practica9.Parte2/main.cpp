@@ -61,5 +61,6 @@ int main()
     leerImagenVectorial((char *)"casita.vec");
    // while( !kbhit() );
   //  closegraph( );
+    delay(500000);
 return 0;
 }
