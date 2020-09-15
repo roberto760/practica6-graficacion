@@ -26,8 +26,10 @@ void leerImagen(char * nombreArchivo){
     int gd = DETECT, gm;
     initgraph(&gd, &gm, NULL);
   //  initwindow(400 ,400 ,"Práctica Leer Imagen", 200, 50);
-    leerImagen((char *)"jirafa.jpg");
+    leerImagen((char *)"casita.jpg");
     //while( !kbhit() );
     //closegraph( );
+
+    delay(500000);
     return 0;
 }
